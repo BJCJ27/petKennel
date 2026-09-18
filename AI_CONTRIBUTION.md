@@ -1,33 +1,41 @@
 # AI Contribution Statement
 
-**Required with every "Open" assignment submission** (see the Assessment Calendar in the course schedule — this does not apply to AI-Free assessments like Live Extension Labs or Oral Defenses, where no AI use is permitted at all).
-
-Copy this file into your repo as `AI_CONTRIBUTION.md` and fill in all four sections before you submit. Keep it short — a few sentences per section is plenty. This is not a report card; it's a reflection, and it's graded on completion and honesty, not on how much or how little you used AI.
-
----
-
 ## 1. Tools used
 
-Name the specific AI tool(s) you used (e.g. ChatGPT, Claude, GitHub Copilot) and, if you know it, which model.
-
-*Example: "Claude (Sonnet), used in the browser. Also used GitHub Copilot's inline autocomplete while writing the component files."*
+Claude (Anthropic, Opus 4.8), used through the Claude app. No other AI tools or
+autocomplete were used.
 
 ## 2. Prompts
 
-Briefly describe the kind of help you asked for — not a verbatim transcript, just enough for a reader to understand how you used it. Debugging a specific error? Generating boilerplate? Explaining a concept from the book? Asking it to review your code?
-
-*Example: "Asked it to explain why my `.map()` wasn't re-rendering when state changed. Asked it to generate the initial CSS for the card layout, which I then modified by hand."*
+I asked it to help me complete the Pet Kennel assignment: filling in the
+class-based `App.jsx` (state from `data.js`, a `feedPet` method, and rendering
+the cards with `.map()`), completing `ChildComponent.jsx` so the card displays
+its props and calls the parent's method on click, and creating the happy/sad
+pet images. I also asked it to style the cards and to write up this README.
+Along the way I asked it to run the app and show me screenshots so I could
+confirm the feed button actually swapped the happy and sad faces.
 
 ## 3. What it got wrong
 
-Name at least one concrete thing the AI got wrong, misunderstood, or produced that didn't actually work — and how you noticed and fixed it. If nothing it gave you was wrong, that's worth saying too, but push yourself to look closely; this section is the one that shows you actually read and tested what you were given rather than pasting it in.
+Two real things came up:
 
-*Example: "It suggested mutating state directly with `.push()`, which the book explicitly warns against — I caught it because the list wouldn't re-render, and replaced it with `.concat()`."*
+- **The import didn't match the filename.** The starter `App.jsx` imports
+  `./ChildComponent`, but the provided file was named `childComponent.jsx` with a
+  lowercase `c`. On a case-sensitive setup (and Vite) that import fails to
+  resolve, so the app wouldn't run. We caught it because the dev server errored
+  on the import, and fixed it by renaming the file to `ChildComponent.jsx`.
+- **The starter image URLs were fake.** `data.js` shipped with placeholder links
+  like `https://some-url.com/sad-yoda.jpg` that don't load anything. I replaced
+  them with real SVG images stored in the project so the pets always show up.
 
 ## 4. Reflection
 
-2–3 sentences on what you learned, or how using the tool changed (or didn't change) your understanding of the code you submitted. Could you explain every line of your submission without the AI's help?
-
----
-
-*Why this exists: using AI well is a skill, and the fastest way to lose that skill is to stop noticing when it's wrong. This statement is graded on whether it's honest and specific, not on how it makes your AI usage look.*
+The biggest thing I learned is how state "lifts up": the parent owns the pet
+data and the `feedPet` method, and the child only receives props and calls the
+callback — it doesn't hold its own state. I also learned why you copy state with
+`.map()` and the spread operator instead of mutating it directly, so React knows
+to re-render. I can explain every line of the submission: how the constructor
+seeds state from `data.js`, how `.map()` builds one card per pet, how clicking
+the button in the child calls `this.props.onFeed(this.props.id)` back up to the
+parent, and how the parent picks the happy or sad image from each pet's
+happiness value.

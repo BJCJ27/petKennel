@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200" role="img" aria-label="dog looking sad">
+  <rect width="200" height="200" rx="24" fill="#eef2f6"/>
+  
+        <ellipse cx="45" cy="120" rx="24" ry="46" fill="#a9713f" transform="rotate(-18 45 120)"/>
+        <ellipse cx="155" cy="120" rx="24" ry="46" fill="#a9713f" transform="rotate(18 155 120)"/>
+  <circle cx="100" cy="112" r="70" fill="#c8935f"/>
+  <ellipse cx="100" cy="150" rx="34" ry="26" fill="#f3e2cf"/>
+  
+        <circle cx="84" cy="118" r="6" fill="#2a2a2a"/>
+        <circle cx="116" cy="118" r="6" fill="#2a2a2a"/>
+        <path d="M74 106 Q84 102 94 108" stroke="#2a2a2a" stroke-width="4" fill="none" stroke-linecap="round"/>
+        <path d="M106 108 Q116 102 126 106" stroke="#2a2a2a" stroke-width="4" fill="none" stroke-linecap="round"/>
+  
+  <ellipse cx="100" cy="140" rx="9" ry="7" fill="#4a2f1a"/>
+  <path d="M84 160 Q100 146 116 160" stroke="#2a2a2a" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <path d="M84 126 q-6 12 0 18 q6 -6 0 -18 Z" fill="#6fc3e8"/>
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200" role="img" aria-label="fox looking sad">
+  <rect width="200" height="200" rx="24" fill="#eef2f6"/>
+  
+        <polygon points="46,60 44,6 96,50" fill="#e8743c"/>
+        <polygon points="154,60 156,6 104,50" fill="#e8743c"/>
+        <polygon points="55,54 54,24 84,50" fill="#3a2a22"/>
+        <polygon points="145,54 146,24 116,50" fill="#3a2a22"/>
+  <circle cx="100" cy="112" r="70" fill="#e8743c"/>
+  <path d="M100 96 Q64 150 100 176 Q136 150 100 96 Z" fill="#fbeee3"/>
+  
+        <circle cx="84" cy="118" r="6" fill="#2a2a2a"/>
+        <circle cx="116" cy="118" r="6" fill="#2a2a2a"/>
+        <path d="M74 106 Q84 102 94 108" stroke="#2a2a2a" stroke-width="4" fill="none" stroke-linecap="round"/>
+        <path d="M106 108 Q116 102 126 106" stroke="#2a2a2a" stroke-width="4" fill="none" stroke-linecap="round"/>
+  
+  <ellipse cx="100" cy="140" rx="9" ry="7" fill="#3a2a22"/>
+  <path d="M84 160 Q100 146 116 160" stroke="#2a2a2a" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <path d="M84 126 q-6 12 0 18 q6 -6 0 -18 Z" fill="#6fc3e8"/>
+</svg>
