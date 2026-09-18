@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200" role="img" aria-label="fox looking happy">
+  <rect width="200" height="200" rx="24" fill="#fff6ea"/>
+  
+        <polygon points="46,60 44,6 96,50" fill="#e8743c"/>
+        <polygon points="154,60 156,6 104,50" fill="#e8743c"/>
+        <polygon points="55,54 54,24 84,50" fill="#3a2a22"/>
+        <polygon points="145,54 146,24 116,50" fill="#3a2a22"/>
+  <circle cx="100" cy="112" r="70" fill="#e8743c"/>
+  <path d="M100 96 Q64 150 100 176 Q136 150 100 96 Z" fill="#fbeee3"/>
+  
+        <path d="M74 116 Q84 106 94 116" stroke="#2a2a2a" stroke-width="5" fill="none" stroke-linecap="round"/>
+        <path d="M106 116 Q116 106 126 116" stroke="#2a2a2a" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <circle cx="66" cy="140" r="8" fill="#f6a6b8" opacity="0.7"/>
+        <circle cx="134" cy="140" r="8" fill="#f6a6b8" opacity="0.7"/>
+  <ellipse cx="100" cy="140" rx="9" ry="7" fill="#3a2a22"/>
+  <path d="M84 150 Q100 168 116 150" stroke="#2a2a2a" stroke-width="4" fill="none" stroke-linecap="round"/>
+        <path d="M92 152 Q100 162 108 152 Z" fill="#e08aa6"/>
+  
+</svg>

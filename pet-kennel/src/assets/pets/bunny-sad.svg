@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200" role="img" aria-label="bunny looking sad">
+  <rect width="200" height="200" rx="24" fill="#eef2f6"/>
+  
+        <ellipse cx="74" cy="40" rx="16" ry="46" fill="#d8d2ec" transform="rotate(-10 74 40)"/>
+        <ellipse cx="126" cy="40" rx="16" ry="46" fill="#d8d2ec" transform="rotate(10 126 40)"/>
+        <ellipse cx="74" cy="42" rx="7" ry="32" fill="#f4c6d8" transform="rotate(-10 74 42)"/>
+        <ellipse cx="126" cy="42" rx="7" ry="32" fill="#f4c6d8" transform="rotate(10 126 42)"/>
+  <circle cx="100" cy="112" r="70" fill="#d8d2ec"/>
+  
+  
+        <circle cx="84" cy="118" r="6" fill="#2a2a2a"/>
+        <circle cx="116" cy="118" r="6" fill="#2a2a2a"/>
+        <path d="M74 106 Q84 102 94 108" stroke="#2a2a2a" stroke-width="4" fill="none" stroke-linecap="round"/>
+        <path d="M106 108 Q116 102 126 106" stroke="#2a2a2a" stroke-width="4" fill="none" stroke-linecap="round"/>
+  
+  <ellipse cx="100" cy="140" rx="9" ry="7" fill="#e08aa6"/>
+  <path d="M84 160 Q100 146 116 160" stroke="#2a2a2a" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <path d="M84 126 q-6 12 0 18 q6 -6 0 -18 Z" fill="#6fc3e8"/>
+</svg>
